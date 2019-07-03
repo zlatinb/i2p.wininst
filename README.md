@@ -7,10 +7,8 @@
 
 To build this you will need the following packages, all available in Debian:
 
-* nsis 
+* nsis (version 3)
 * dos2unix
 * zip
 
-Note for NSIS v2 - some of the lines in the nsis file are commented out because they only work on NSIS v3.  When building the final release binary, uncomment those lines out.
 
-Note for compression - when building production installer uncomment the "lzma" compressor, it takes a long time but it's worth it!
